@@ -1,0 +1,4 @@
+[debug] [currency-converter-test] Classpath dependencies List()
+[debug] [currency-converter-test] Dependencies from configurations List(currency-converter)
+[debug] Bloop wrote the configuration of project 'currency-converter-test' to 'C:\Users\Filip\Documents\MEGA\Scala\currency-converter\.bloop\currency-converter-test.json'
+[success] Generated .bloop\currency-converter-test.json

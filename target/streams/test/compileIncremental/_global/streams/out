@@ -1,0 +1,55 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 2 products, 2 sources, 5 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/ConverterTest.scala, ${BASE}/src/test/scala/OperationSingleTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/test/scala/OperationSingleTest.scala), unmodified = ...),Set(${BASE}/target/scala-3.3.3/test-classes/OperationSingleTest.class),Set(),API Changes: Set(NamesChange(OperationSingle,ModifiedNames(changes = UsedName(highestRateRange,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe OperationSingle has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(highestRateRange,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) OperationSingle: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) OperationSingle.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of OperationSingleTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/test/scala/OperationSingleTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(${BASE}/target/scala-3.3.3/test-classes/OperationSingleTest.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(OperationSingle,ModifiedNames(changes = UsedName(highestRateRange,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(OperationSingleTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(${BASE}/src/test/scala/OperationSingleTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(OperationSingleTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/test/scala/OperationSingleTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: OperationSingleTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Filip\Documents\MEGA\Scala\projekt\target\scala-3.3.3\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.3.3\scala3-sbt-bridge-3.3.3.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 70ccf6f2 for Scala Compiler version 3.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.3\scala3-library_3-3.3.3.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Filip\Documents\MEGA\Scala\projekt\target\scala-3.3.3\test-classes;C:\Users\Filip\Documents\MEGA\Scala\projekt\target\scala-3.3.3\classes;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_3\2.3.0\scala-parser-combinators_3-2.3.0.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-core_3\2.6.1\cats-core_3-2.6.1.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\co\fs2\fs2-core_3\3.1.6\fs2-core_3-3.1.6.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_3\3.2.16\scalatest_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-kernel_3\2.6.1\cats-kernel_3-2.6.1.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\simulacrum-scalafix-annotations_3\0.5.4\simulacrum-scalafix-annotations_3-0.5.4.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-effect_3\3.2.9\cats-effect_3-3.2.9.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scodec\scodec-bits_3\1.1.29\scodec-bits_3-1.1.29.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_3\3.2.16\scalatest-core_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_3\3.2.16\scalatest-featurespec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_3\3.2.16\scalatest-flatspec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_3\3.2.16\scalatest-freespec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_3\3.2.16\scalatest-funsuite_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_3\3.2.16\scalatest-funspec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_3\3.2.16\scalatest-propspec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_3\3.2.16\scalatest-refspec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_3\3.2.16\scalatest-wordspec_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_3\3.2.16\scalatest-diagrams_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_3\3.2.16\scalatest-matchers-core_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_3\3.2.16\scalatest-shouldmatchers_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_3\3.2.16\scalatest-mustmatchers_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-effect-kernel_3\3.2.9\cats-effect-kernel_3-3.2.9.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-effect-std_3\3.2.9\cats-effect-std_3-3.2.9.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_3\3.2.16\scalactic_3-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.16\scalatest-compatible-3.2.16.jar;C:\Users\Filip\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_3\2.1.0\scala-xml_3-2.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 5.0824105 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from OperationSingleTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: OperationSingleTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(OperationSingleTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(OperationSingleTest,ModifiedNames(changes = UsedName(assertCompiles,[Default]), UsedName(assertDoesNotCompile,[Default]), UsedName(assertTypeError,[Default]))) invalidates 1 classes due to The OperationSingleTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(assertCompiles,[Default]), UsedName(assertDoesNotCompile,[Default]), UsedName(assertTypeError,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(OperationSingleTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
