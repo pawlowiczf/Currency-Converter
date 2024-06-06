@@ -1,5 +1,6 @@
 # Currency-Converter-
 A simple currency converter website written in Scala. 
+Run Server.scala to start a server on localhost:8080 
 
 ![image](https://github.com/pawlowiczf/Currency-Converter-/assets/117346592/35fefd22-0aa2-464f-9c1f-942f9327ceda)
 
