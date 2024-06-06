@@ -1,4 +1,4 @@
-# Currency-Converter-
+# Currency-Converter
 A simple currency converter website written in Scala. 
 
 Run ```Server.scala``` to start a server on ```localhost:8080```
